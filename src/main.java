@@ -4,7 +4,6 @@ public class main {
         System.out.println(checkPalindrom("кабан упал и лапу набок"));
         System.out.println(checkPalindrom("шабаш"));
         System.out.println(checkPalindrom("ABcbA"));
-
     }
     private static boolean checkPalindrom (String word){
         char [] chars = word.toLowerCase().toCharArray();
